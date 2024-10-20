@@ -1,13 +1,12 @@
-//print number 1 to 10
+//print numbers 1 to 5.
 #include <stdio.h>
-int main ()
+int main()
 {
-  int i;
+  int x;
 
-  for (i = 1;i < 11;++i)
-  {
-
-      printf("%d",i);
+  while(x<=5){
+    printf("%d\n",x);
+    ++x;
   }
-return 0;
+    return 0;
 }
